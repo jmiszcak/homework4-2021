@@ -1,0 +1,144 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+/*END STARTER CODE*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  background-color: #DDDDDD;
+  background-image: url('../images/pigeon-background.JPEG');
+  font-family: "Andika", sans-serif;
+  /*Req 1*/
+}
+
+h1{
+  color: #c12258;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2
+
+  /*Req 2*/
+}
+
+p{
+  padding-top: 15px
+  /*Req 3*/
+}
+
+a{
+  color: #B21F50;
+  text-decoration: wavy;
+  font-size: 16px;
+
+  /*Req 4*/
+}
+
+*:focus{
+  border-style: 3px dashed;
+  border-color: #417243;
+}
+
+
+/*Req 6a*/
+td{
+  text-align: center;
+  border-top: 2px solid black;
+  padding: 10px
+}
+
+/*Req 6b*/
+.colhead{
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: center;
+  text-transform: capitalize;
+  background-color: #7e0820;
+  min-width: 125px;
+  padding: 10px;
+}
+/*Req 6c*/
+.rowhead{
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  padding: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: transparent;
+}
+tr:nth-child(even) {
+  background-color: #D1D1D1;
+}
+tr:hover{
+  background-color: rgba(126, 8, 32, .25);
+}
+
+
+/*Req 7*/
+table{
+    border: 2px solid #000000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+
+}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
+}
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+/*Add selectors and rules here*/
+
+
+/*Req 8*/
+footer{
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+  min-height: 75px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+footer p{
+  padding-bottom: 15px;
+}
+
